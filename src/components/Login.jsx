@@ -1,9 +1,10 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 export const Login = () => {
   return (
-    <>
-    <p>Hi</p>
-    </>
+    <div>
+      <Navbar />
+    </div>
   )
 }

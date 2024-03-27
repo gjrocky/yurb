@@ -2,9 +2,11 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div>
-      plz?
-    </div>
+    <nav>
+      <div>
+        Hi
+      </div>
+    </nav>
   )
 }
 

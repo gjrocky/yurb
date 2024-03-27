@@ -10,13 +10,12 @@ function Home() {
 
   return (
     <>
-    <div className="bg-[#fefae0] text-3xl font-mono text-[14px] text-[#161a1d] flex items-center justify-center h-screen">
-      <button className="hover:bg-lime-700" onClick={handleClick}>
+    <div className="bg-[#424549] text-3xl font-mono text-[14px] text-[#ffffff] flex items-center justify-center h-screen">
+      <button className="hover:bg-[#36393e] text-[#ffffff] font-semibold py-2 px-4 border border-[#424549] rounded-2xl" onClick={handleClick}>
       <TypeAnimation
           sequence={[
             'yurbys_art_gallery', // Types 'One'
-            2000, // Waits 2s
-            'login/create.account?',
+            1000, // Waits 2s
             () => {
               console.log('Sequence completed');
             },
@@ -25,7 +24,7 @@ function Home() {
           cursor={true}
           repeat={0}
           style={{ fontSize: '2em', display: 'inline-block' }}
-          speed={25}
+          speed={30}
         />
       </button>
     </div>
