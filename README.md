@@ -9,8 +9,4 @@ Currently, two official plugins are available:
 
 
 
-Dependencies:
-React
-npm
-tailwind
-react-type-animation
+RUN "npm install" to install all dependencies !!
